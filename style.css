@@ -1,0 +1,424 @@
+body{
+    background:rgb(0, 255, 251);
+    font-family: Sans-Serif;
+}
+#my{
+    position: absolute;
+    top: 490px;
+    width: 1000px;
+    height: 1000px;
+    padding: 10px;
+
+}
+#my:hover{
+    left: 0px;
+}
+#mys{
+    position: absolute;
+    height:430px;
+    left:780px;
+    width: 400px;
+
+}
+#myp{
+    position: absolute;
+    height:430px;
+    width: 350px;
+    left:400px
+
+}
+
+.h1:hover + #ba{
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+#ba{
+    position: absolute;
+    top: 70%;
+    right: 80%;
+    
+}
+#ba:hover{
+    top: 90%;
+}
+h1:hover{
+padding: 5%;
+}
+#n:hover{
+    padding: 1%;
+}
+#mys:hover{
+    padding-right: 12%;
+    top: 30px;
+
+    padding: 10px;
+    left: 800px;
+}
+#myp:hover{
+    left: 420px;
+    top: 30px;
+
+}
+#mye{
+    position: absolute;
+    height:430px;
+    width: 350px;
+
+}
+#i:hover{
+    transform: rotate(60%);
+    padding: 2%;
+    top: 20%;
+}
+.container>#mye:hover{
+    padding: 2%;
+
+}
+h1{
+
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: inherit;
+    color: black;
+}
+
+.container{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 3fr;
+    height: 300px;
+    margin-top: 100px;
+    gap: 22px;
+    justify-content: space-around;
+    margin-top: 25%;
+    position: relative;
+
+}
+
+.about{
+margin-top: 50px;
+width: 1200px;
+margin-left: 100px;
+
+
+}
+
+.fourth{
+    margin-left: 70%;
+    width: 100px;
+    height: 90px;
+
+
+}
+
+.box{
+    grid-row: span 2;
+
+}
+
+
+.b1{
+    display: flexbox;
+    justify-content: flex-end;
+    position: relative;
+}
+.x{
+justify-content: flex-end;
+
+}
+svg{
+    margin-left: 30%;
+    width: 100px;
+    height: 90px;
+    color: white;
+}
+.second{
+    margin-left: 25%;
+    width: 100px;
+    height: 90px;
+    color: white;
+}
+img {
+    margin-left: 65%;
+    margin-top: 0px;
+    height: 150px;
+    width:150px
+
+
+}
+
+
+
+
+ img{
+    display: inline-flex;
+
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    border-radius: 50%;
+
+
+}
+#b2{
+    position: absolute;
+    top: 150px;
+    left: 530px;
+    background-color: black;
+
+}
+#b3{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    background-color: black;
+}
+#b5{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    background-color: black;
+}
+
+#b4{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    background-color: black;
+}
+.fifth{
+
+    position:absolute;
+    top: 240px;
+    left: 600px;
+
+}
+
+.sixth{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+.seventh{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+
+}
+
+.eight{
+    position: absolute;
+    top: 30px;
+    right: 67%;
+    padding: 7px;
+
+}
+.nine{
+    position: absolute;
+    top: 120px;
+    right: 60%;
+    padding: 7px;
+}
+.ten{
+    position: absolute;
+    top: 120px;
+    right: 42%;
+    padding: 7px;
+}
+
+
+.sixth:hover{
+    padding: 20px;
+}
+.seventh:hover{
+    padding: 20px;
+}
+.eight:hover{
+    padding: 20px;
+}
+.nine:hover{
+    padding: 20px;
+}
+.ten:hover{
+    padding: 30px;
+    }
+.one{
+    position: absolute;
+    top: 30px;
+    left: 370px;
+    padding: 7px;
+}
+.one:hover{
+padding: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust element sizes for tablets and small laptops */
+    h1{
+        font-size: 1em;
+        border: 5px solid 10px solid rgb(0, 255, 251);
+        padding: 2px;
+        background-color: white;
+    }
+    #i{
+        position: center;
+        padding: 12%;
+
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 20%;
+    }
+    body{
+        border: 10px solid rgb(0, 255, 251);
+        padding: 15px;
+    }
+    #my {
+      width: 80%;
+      top: 20px;
+      left: 10%;
+      
+    }
+
+    #mys {
+      height: 150px;
+      left: 10%;
+      width: 80%;
+    }
+
+    #myp {
+      height: 150px;
+      width: 80%;
+      left: 10%;
+    }
+
+    #ba {
+      top: 10px;
+      right: 10%;
+    }
+
+    h1:hover {
+      padding: 5%;
+    }
+
+    #n:hover {
+      padding: 1%;
+    }
+
+    #mys:hover {
+      padding-left: 12%;
+    }
+
+    #i:hover {
+      transform: rotate(60%);
+      padding: 2%;
+      top: 10%;
+    }
+
+    /* Adjust the positioning of other elements as needed for mobile view */
+    .container {
+      display: flex; /* Display grid elements in a grid layout */
+      flex-direction: column;
+      height: 300px;
+      margin-top: 300px;
+      gap: 60px;
+      justify-content: space-between;
+      margin-top: 100%;
+      position: relative;
+    }
+
+    /* Adjust the positions and sizes of other elements as needed for mobile view */
+    .fourth {
+      width: 0px;
+      height: 90px;
+    }
+
+    /* Add margin-top to the .box class to maintain spacing */
+    .box {
+      margin-top: 90%;
+
+    }
+
+    /* Adjust other element positions and sizes as needed for mobile view */
+    .x, svg {
+      margin-left: 0;
+    }
+
+
+
+    /* Adjust the positions of other elements as needed for mobile view */
+
+    /* Ensure buttons and arrows don't overlap with the containers */
+    .second, #b2, #b3, #b4, #b5, .fifth, .sixth, .seventh, .eight, .nine, .ten, .one {
+      padding: 5px;
+      position: absolute;
+
+    }
+    #b2{
+        position: absolute;
+        left:003px;
+        top: 120px;
+    }
+    #b3{
+        position: absolute;
+        left: 130px;
+        top:120px
+    }
+    #b4{
+        position: absolute;
+        left: 250px;
+        top:120px;
+
+    }
+    #mys{
+        height: 490px;
+        margin-top: 150%;
+        width: 340px;
+        border: 10px solid 10px solid rgb(0, 255, 251);
+        padding: 10px;
+    }
+    #mye{
+        margin-left:5%;
+        margin-top: 0%;
+        width:340px;
+        border: 10px solid 10px solid rgb(0, 255, 251);
+        padding: 10px;
+    }
+    #my{
+        margin-top: 440%;
+        height:1600px;
+        right: 30px;
+        width: 420px;
+        margin-left:1%;
+        border: 10px solid 10px solid rgb(0, 255, 251);
+        padding: 10px;
+    }
+    #myp{
+        margin-top: 300%;
+        height: 440px;
+        width: 340px;
+        border: 10px solid 10px solid rgb(0, 255, 251);
+        padding: 10px;
+
+    }
+    svg {
+      width: 40px;
+      height: 36px;
+
+      display: none;
+    }
+
+    /* Ensure "Skills," "Education," and "About" move down below buttons and arrows */
+    .about, .fourth, .one {
+
+
+    }
+
+    /* Increase the gap between "Education," "Projects," and "About" */
+    .fourth, .one {
+      margin-bottom: 200px;
+    }
+  }
